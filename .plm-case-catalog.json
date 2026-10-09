@@ -1,0 +1,2132 @@
+[
+ {
+  "nodeId": "TestAllTypesBoundaryScale/十类字段_边界值_大批量往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/all_types_scale_p1_test.go",
+  "name": "十类字段_边界值_大批量往返"
+ },
+ {
+  "nodeId": "TestErrorPathDisclosure/错误信息不含未脱敏路径",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "错误信息不含未脱敏路径"
+ },
+ {
+  "nodeId": "TestQueryOffsetLimitBounds/limit_MaxInt32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "limit_MaxInt32"
+ },
+ {
+  "nodeId": "TestQueryOffsetLimitBounds/offset_MaxInt32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "offset_MaxInt32"
+ },
+ {
+  "nodeId": "TestRepeatedReadWriteLeak/反复读写_200_轮_无泄漏",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "反复读写_200_轮_无泄漏"
+ },
+ {
+  "nodeId": "TestResultSetConcurrentClose/单结果集_并发_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "单结果集_并发_Close"
+ },
+ {
+  "nodeId": "TestResultSetMetadataBoundsExtra/关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "关闭后调用"
+ },
+ {
+  "nodeId": "TestResultSetMetadataBoundsExtra/副本隔离",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "副本隔离"
+ },
+ {
+  "nodeId": "TestTagFilterNestedExtra/And_Or_Not_深度_3_嵌套",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_reader_p1_test.go",
+  "name": "And_Or_Not_深度_3_嵌套"
+ },
+ {
+  "nodeId": "TestQueryColumnsCountBound/列数超_int32_上限",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "列数超_int32_上限"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsExtra/SetBytes_超_MaxInt32_长度",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "SetBytes_超_MaxInt32_长度"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsExtra/SetFloat32_正负_Inf",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "SetFloat32_正负_Inf"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsExtra/SetFloat64_NaN",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "SetFloat64_NaN"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsExtra/SetString_超长_1_MiB",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "SetString_超长_1_MiB"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchExtra/多记录_行数一致",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "多记录_行数一致"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchExtra/输入对象_Release_后数据已落盘",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_values_p1_test.go",
+  "name": "输入对象_Release_后数据已落盘"
+ },
+ {
+  "nodeId": "TestNewTabletBounds/Rows_关闭后",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "Rows_关闭后"
+ },
+ {
+  "nodeId": "TestNewTabletBounds/maxRows_2",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "maxRows_2"
+ },
+ {
+  "nodeId": "TestTabletClosedAndReuse/关闭后_AddTimestamp",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "关闭后_AddTimestamp"
+ },
+ {
+  "nodeId": "TestTabletClosedAndReuse/同一_Tablet_复用到两个_Writer",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "同一_Tablet_复用到两个_Writer"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetBool_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetBool_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetBytes_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetBytes_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetFloat32_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetFloat32_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetFloat64_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetFloat64_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetInt32_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetInt32_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetInt64_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetInt64_关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletSettersClosed/SetString_关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "SetString_关闭后再调用"
+ },
+ {
+  "nodeId": "TestWriterAddPropertyBounds/key_超长_1_MiB",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "key_超长_1_MiB"
+ },
+ {
+  "nodeId": "TestWriterAddPropertyBounds/value_超长_1_MiB",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "value_超长_1_MiB"
+ },
+ {
+  "nodeId": "TestWriterAddPropertyBounds/关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "关闭后调用"
+ },
+ {
+  "nodeId": "TestWriterCloseBounds/关闭后_Flush",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "关闭后_Flush"
+ },
+ {
+  "nodeId": "TestWriterFlushCloseBounds/关闭后_Flush",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "关闭后_Flush"
+ },
+ {
+  "nodeId": "TestWriterFlushCloseBounds/未写入即_Flush",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "未写入即_Flush"
+ },
+ {
+  "nodeId": "TestWriterMemoryThresholdBounds/WithMemoryThreshold_MaxUint64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "WithMemoryThreshold_MaxUint64"
+ },
+ {
+  "nodeId": "TestWriterMemoryThresholdBounds/多个阈值选项叠加",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "多个阈值选项叠加"
+ },
+ {
+  "nodeId": "TestWriterPathBounds/不可写目录",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "不可写目录"
+ },
+ {
+  "nodeId": "TestWriterPathBounds/超长路径_单段_255_字节以上",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/bounds_writer_p1_test.go",
+  "name": "超长路径_单段_255_字节以上"
+ },
+ {
+  "nodeId": "TestColumnNameCaseNormalization/大小写混合列名_归一小写",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/column_name_p1_test.go",
+  "name": "大小写混合列名_归一小写"
+ },
+ {
+  "nodeId": "TestColumnNameNumeric/纯数字列名_读写往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/column_name_p1_test.go",
+  "name": "纯数字列名_读写往返"
+ },
+ {
+  "nodeId": "TestColumnNameSpecialChars/含特殊字符与中文列名_读写往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/column_name_p1_test.go",
+  "name": "含特殊字符与中文列名_读写往返"
+ },
+ {
+  "nodeId": "TestColumnNameTagEmpty/TAG_列名为空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/column_name_p1_test.go",
+  "name": "TAG_列名为空串"
+ },
+ {
+  "nodeId": "TestQueryColumnCaseSensitivity/查询列名大小写_大写传入",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/column_name_p1_test.go",
+  "name": "查询列名大小写_大写传入"
+ },
+ {
+  "nodeId": "TestInteropBatchMode/跨语言_x_批次模式",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "跨语言_x_批次模式"
+ },
+ {
+  "nodeId": "TestInteropCppWriteGoRead/Cpp_写_Go_读",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "Cpp_写_Go_读"
+ },
+ {
+  "nodeId": "TestInteropGoWriteCppRead/Go_写_Cpp_读",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "Go_写_Cpp_读"
+ },
+ {
+  "nodeId": "TestInteropGoWritePythonRead/Go_写_Python_读",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "Go_写_Python_读"
+ },
+ {
+  "nodeId": "TestInteropMultiTableSchemas/多表文件_返回全部表结构",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "多表文件_返回全部表结构"
+ },
+ {
+  "nodeId": "TestInteropPythonWriteGoRead/Python_写_Go_读",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "Python_写_Go_读"
+ },
+ {
+  "nodeId": "TestInteropTagFilterPaging/跨语言_x_Tag_过滤与分页",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/interop_p1_test.go",
+  "name": "跨语言_x_Tag_过滤与分页"
+ },
+ {
+  "nodeId": "TestLargeDataReadBack/万行级读回一致性",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/large_data_p1_test.go",
+  "name": "万行级读回一致性"
+ },
+ {
+  "nodeId": "TestLargeDataTagFilter/万行级_Tag_过滤",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/large_data_p1_test.go",
+  "name": "万行级_Tag_过滤"
+ },
+ {
+  "nodeId": "TestLargeDataWrite/万行级写入_文件规模记录",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/large_data_p1_test.go",
+  "name": "万行级写入_文件规模记录"
+ },
+ {
+  "nodeId": "TestGetAllTableSchemasExtra/Reader_Close_后已返回_Schema_仍可用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Reader_Close_后已返回_Schema_仍可用"
+ },
+ {
+  "nodeId": "TestGetAllTableSchemasExtra/单表文件",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "单表文件"
+ },
+ {
+  "nodeId": "TestGetAllTableSchemasExtra/只建表未写数据_Go_写接口最小文件",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "只建表未写数据_Go_写接口最小文件"
+ },
+ {
+  "nodeId": "TestGetTableSchemaExtra/含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestGetTableSchemaExtra/空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "空字符串"
+ },
+ {
+  "nodeId": "TestGetTableSchemaExtra/表名大小写不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "表名大小写不同"
+ },
+ {
+  "nodeId": "TestNewReaderDir/path_目录",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "path_目录"
+ },
+ {
+  "nodeId": "TestOffsetLimitExtra/Offset_Limit_大于结果集",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Offset_Limit_大于结果集"
+ },
+ {
+  "nodeId": "TestQueryColumnsExtra/多列合法_顺序保持",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "多列合法_顺序保持"
+ },
+ {
+  "nodeId": "TestQueryColumnsExtra/数组含重复列_待实测钉死",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "数组含重复列_待实测钉死"
+ },
+ {
+  "nodeId": "TestQueryOptionsOrderIndependent/同一选项集不同顺序传入",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "同一选项集不同顺序传入"
+ },
+ {
+  "nodeId": "TestQueryTableCaseInsensitive/表名大小写不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "表名大小写不同"
+ },
+ {
+  "nodeId": "TestTagFilterCombine/And",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "And"
+ },
+ {
+  "nodeId": "TestTagFilterCombine/Not",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Not"
+ },
+ {
+  "nodeId": "TestTagFilterCombine/Or",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Or"
+ },
+ {
+  "nodeId": "TestTagFilterConstructExtra/And_合法_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "And_合法_nil"
+ },
+ {
+  "nodeId": "TestTagFilterConstructExtra/Between_的_upper_含_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Between_的_upper_含_NUL"
+ },
+ {
+  "nodeId": "TestTagFilterConstructExtra/Not_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Not_nil"
+ },
+ {
+  "nodeId": "TestTagFilterInvalidExtra/值类型与列不匹配",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "值类型与列不匹配"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/Between",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Between"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/Gt",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Gt"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/Gte",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Gte"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/Lt",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Lt"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/Lte",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "Lte"
+ },
+ {
+  "nodeId": "TestTagFilterOperatorsExtra/不存在的值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "不存在的值"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/batchSize_-1_按行模式",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "batchSize_-1_按行模式"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/batchSize_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "batchSize_1"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/batchSize_MaxInt32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "batchSize_MaxInt32"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/batchSize_MaxInt32_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "batchSize_MaxInt32_1"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/batchSize_行数_不足一批",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "batchSize_行数_不足一批"
+ },
+ {
+  "nodeId": "TestWithBatchSizeExtra/尾批次行数",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "尾批次行数"
+ },
+ {
+  "nodeId": "TestWithLimitExtra/limit_-2_按不限处理",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "limit_-2_按不限处理"
+ },
+ {
+  "nodeId": "TestWithLimitExtra/limit_MaxInt32_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "limit_MaxInt32_1"
+ },
+ {
+  "nodeId": "TestWithLimitExtra/limit_行数",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "limit_行数"
+ },
+ {
+  "nodeId": "TestWithOffsetExtra/offset_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "offset_0"
+ },
+ {
+  "nodeId": "TestWithOffsetExtra/offset_MaxInt32_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "offset_MaxInt32_1"
+ },
+ {
+  "nodeId": "TestWithOffsetExtra/offset_行数",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "offset_行数"
+ },
+ {
+  "nodeId": "TestWithTimeRangeExtra/start_MinInt64_end_MaxInt64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "start_MinInt64_end_MaxInt64"
+ },
+ {
+  "nodeId": "TestWithTimeRangeExtra/start_end",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "start_end"
+ },
+ {
+  "nodeId": "TestWithTimeRangeExtra/与_WithOffset_组合",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "与_WithOffset_组合"
+ },
+ {
+  "nodeId": "TestWithTimeRangeExtra/范围外_无命中",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_p1_test.go",
+  "name": "范围外_无命中"
+ },
+ {
+  "nodeId": "TestGetTableSchema/不存在的表",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不存在的表"
+ },
+ {
+  "nodeId": "TestGetTableSchema/合法表名",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "合法表名"
+ },
+ {
+  "nodeId": "TestNewReader/path_不存在文件",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "path_不存在文件"
+ },
+ {
+  "nodeId": "TestNewReader/path_含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "path_含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestNewReader/path_正常文件",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "path_正常文件"
+ },
+ {
+  "nodeId": "TestNewReader/path_空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "path_空字符串"
+ },
+ {
+  "nodeId": "TestOffsetAndLimit/Offset_与_Limit_同时使用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "Offset_与_Limit_同时使用"
+ },
+ {
+  "nodeId": "TestQueryColumns/不存在的列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不存在的列"
+ },
+ {
+  "nodeId": "TestQueryColumns/单列合法",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "单列合法"
+ },
+ {
+  "nodeId": "TestQueryColumns/数组含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "数组含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestQueryColumns/数组含空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "数组含空字符串"
+ },
+ {
+  "nodeId": "TestQueryColumns/空数组",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "空数组"
+ },
+ {
+  "nodeId": "TestQueryOptions/options_含_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "options_含_nil"
+ },
+ {
+  "nodeId": "TestQueryOptions/不传_option_全时段_无限行_行模式",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不传_option_全时段_无限行_行模式"
+ },
+ {
+  "nodeId": "TestQueryTable/不存在的表",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不存在的表"
+ },
+ {
+  "nodeId": "TestQueryTable/合法表名",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "合法表名"
+ },
+ {
+  "nodeId": "TestQueryTable/含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestQueryTable/空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "空字符串"
+ },
+ {
+  "nodeId": "TestTagFilterConstruct/Between_lower_upper",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "Between_lower_upper"
+ },
+ {
+  "nodeId": "TestTagFilterConstruct/filter_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "filter_nil"
+ },
+ {
+  "nodeId": "TestTagFilterConstruct/值含_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "值含_NUL"
+ },
+ {
+  "nodeId": "TestTagFilterConstruct/列名为空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "列名为空串"
+ },
+ {
+  "nodeId": "TestTagFilterConstruct/列名含_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "列名含_NUL"
+ },
+ {
+  "nodeId": "TestTagFilterInvalid/不存在的列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不存在的列"
+ },
+ {
+  "nodeId": "TestTagFilterInvalid/对_FIELD_列构造_Eq",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "对_FIELD_列构造_Eq"
+ },
+ {
+  "nodeId": "TestTagFilterOperators/Eq_命中",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "Eq_命中"
+ },
+ {
+  "nodeId": "TestTagFilterOperators/Neq",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "Neq"
+ },
+ {
+  "nodeId": "TestWithBatchSize/batchSize_0_行模式可用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "batchSize_0_行模式可用"
+ },
+ {
+  "nodeId": "TestWithBatchSize/批次循环到_io_EOF",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "批次循环到_io_EOF"
+ },
+ {
+  "nodeId": "TestWithLimit/limit_-1_不限",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "limit_-1_不限"
+ },
+ {
+  "nodeId": "TestWithLimit/limit_0_空结果且无错误",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "limit_0_空结果且无错误"
+ },
+ {
+  "nodeId": "TestWithLimit/limit_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "limit_1"
+ },
+ {
+  "nodeId": "TestWithOffset/offset_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "offset_-1"
+ },
+ {
+  "nodeId": "TestWithOffset/offset_1_跳过首行",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "offset_1_跳过首行"
+ },
+ {
+  "nodeId": "TestWithTimeRange/start_end_倒置区间_空结果",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "start_end_倒置区间_空结果"
+ },
+ {
+  "nodeId": "TestWithTimeRange/start_end_闭区间",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "start_end_闭区间"
+ },
+ {
+  "nodeId": "TestWithTimeRange/不传时间范围_默认全时段",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "不传时间范围_默认全时段"
+ },
+ {
+  "nodeId": "TestWithTimeRange/时间范围_TagFilter_交集",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/reader_test.go",
+  "name": "时间范围_TagFilter_交集"
+ },
+ {
+  "nodeId": "TestCloseSemanticsExtra/Reader_Close_后已交付_Arrow_对象仍可释放",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Reader_Close_后已交付_Arrow_对象仍可释放"
+ },
+ {
+  "nodeId": "TestCloseSemanticsExtra/Reader_重复_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Reader_重复_Close"
+ },
+ {
+  "nodeId": "TestCloseSemanticsExtra/ResultSet_重复_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ResultSet_重复_Close"
+ },
+ {
+  "nodeId": "TestCloseSemanticsExtra/Tablet_重复_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Tablet_重复_Close"
+ },
+ {
+  "nodeId": "TestCloseSemanticsExtra/Writer_重复_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Writer_重复_Close"
+ },
+ {
+  "nodeId": "TestConcurrentReaders/多_goroutine_并发读_-race_无告警且结果正确",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "多_goroutine_并发读_-race_无告警且结果正确"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/ReadArrowBatch_返回对象",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ReadArrowBatch_返回对象"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/ReadArrowRecordBatch_返回对象内容",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ReadArrowRecordBatch_返回对象内容"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/批次模式结果集调用_IsNull",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "批次模式结果集调用_IsNull"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/结果集_Close_后读批次",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "结果集_Close_后读批次"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/行模式结果集调用_ReadArrowBatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "行模式结果集调用_ReadArrowBatch"
+ },
+ {
+  "nodeId": "TestConsumeModeExtra/跨批次分页_Offset_Limit_BatchSize",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "跨批次分页_Offset_Limit_BatchSize"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrColumnNotExist",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrColumnNotExist"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrInvalidPath",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrInvalidPath"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrInvalidSchema",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrInvalidSchema"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrOverflow",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrOverflow"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrTableNotExist",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrTableNotExist"
+ },
+ {
+  "nodeId": "TestErrorModelExtra/ErrTypeMismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "ErrTypeMismatch"
+ },
+ {
+  "nodeId": "TestNullSemanticsExtra/NULL_与_false",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "NULL_与_false"
+ },
+ {
+  "nodeId": "TestNullSemanticsExtra/NULL_与空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "NULL_与空串"
+ },
+ {
+  "nodeId": "TestNullSemanticsExtra/NULL_与空字节串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "NULL_与空字节串"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/Offset_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Offset_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TagFilter_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TagFilter_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TagFilter_Offset",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TagFilter_Offset"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TagFilter_Offset_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TagFilter_Offset_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TimeRange_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TimeRange_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TimeRange_Offset",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TimeRange_Offset"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TimeRange_Offset_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TimeRange_Offset_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TimeRange_TagFilter_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TimeRange_TagFilter_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/TimeRange_TagFilter_Offset",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "TimeRange_TagFilter_Offset"
+ },
+ {
+  "nodeId": "TestQueryCombosExtra/全条件组合到空结果",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "全条件组合到空结果"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Bool",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Bool"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Bytes_含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Bytes_含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Float32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Float32"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Float64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Float64"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Int32_含_DATE_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Int32_含_DATE_列"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/Int64_含_TIMESTAMP_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "Int64_含_TIMESTAMP_列"
+ },
+ {
+  "nodeId": "TestResultSetGetterTypes/String_含空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "String_含空串"
+ },
+ {
+  "nodeId": "TestResultSetIsNullExtra/关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "关闭后调用"
+ },
+ {
+  "nodeId": "TestResultSetIsNullExtra/列_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "列_-1"
+ },
+ {
+  "nodeId": "TestResultSetIsNullExtra/列_1_时间戳",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "列_1_时间戳"
+ },
+ {
+  "nodeId": "TestResultSetIsNullExtra/列_n_末列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "列_n_末列"
+ },
+ {
+  "nodeId": "TestResultSetIsNullExtra/批次模式结果集上调用_IsNull",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "批次模式结果集上调用_IsNull"
+ },
+ {
+  "nodeId": "TestResultSetMetadataExtra/列顺序与查询列一致",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "列顺序与查询列一致"
+ },
+ {
+  "nodeId": "TestResultSetMetadataExtra/时间戳列_第_1_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "时间戳列_第_1_列"
+ },
+ {
+  "nodeId": "TestResultSetNextExtra/关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_p1_test.go",
+  "name": "关闭后调用"
+ },
+ {
+  "nodeId": "TestCloseSemantics/Reader_Close_使所属结果集失效",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "Reader_Close_使所属结果集失效"
+ },
+ {
+  "nodeId": "TestConsumeMode/批次模式_EOF_io_EOF",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "批次模式_EOF_io_EOF"
+ },
+ {
+  "nodeId": "TestConsumeMode/批次模式结果集调用_getter",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "批次模式结果集调用_getter"
+ },
+ {
+  "nodeId": "TestConsumeMode/行模式与批次模式结果一致",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "行模式与批次模式结果一致"
+ },
+ {
+  "nodeId": "TestConsumeMode/行模式结果集调用_ReadArrowRecordBatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "行模式结果集调用_ReadArrowRecordBatch"
+ },
+ {
+  "nodeId": "TestErrorModel/ErrNoCurrentRow_命中",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "ErrNoCurrentRow_命中"
+ },
+ {
+  "nodeId": "TestErrorModel/ErrWrongResultMode_命中",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "ErrWrongResultMode_命中"
+ },
+ {
+  "nodeId": "TestErrorModel/errors_As_取_Error_Code_Op",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "errors_As_取_Error_Code_Op"
+ },
+ {
+  "nodeId": "TestErrorModel/errors_Is_命中哨兵",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "errors_Is_命中哨兵"
+ },
+ {
+  "nodeId": "TestNullSemantics/Arrow_空值与标量判空一致",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "Arrow_空值与标量判空一致"
+ },
+ {
+  "nodeId": "TestNullSemantics/NULL_与_0_区分",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "NULL_与_0_区分"
+ },
+ {
+  "nodeId": "TestQueryCombos/TimeRange_TagFilter",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "TimeRange_TagFilter"
+ },
+ {
+  "nodeId": "TestQueryCombos/TimeRange_TagFilter_Offset_Limit",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "TimeRange_TagFilter_Offset_Limit"
+ },
+ {
+  "nodeId": "TestQueryCombos/TimeRange_TagFilter_Offset_Limit_BatchSize",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "TimeRange_TagFilter_Offset_Limit_BatchSize"
+ },
+ {
+  "nodeId": "TestResultSetGetter/列序号_0_-1_n_1_ErrOutOfRange",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "列序号_0_-1_n_1_ErrOutOfRange"
+ },
+ {
+  "nodeId": "TestResultSetGetter/未_Next_即取值_ErrNoCurrentRow",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "未_Next_即取值_ErrNoCurrentRow"
+ },
+ {
+  "nodeId": "TestResultSetGetter/用错误_getter_读列_ErrTypeMismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "用错误_getter_读列_ErrTypeMismatch"
+ },
+ {
+  "nodeId": "TestResultSetGetter/读空值_ErrNullValue",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "读空值_ErrNullValue"
+ },
+ {
+  "nodeId": "TestResultSetIsNull/列_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "列_0"
+ },
+ {
+  "nodeId": "TestResultSetIsNull/列_n_1_结果列为_time_value_n_2",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "列_n_1_结果列为_time_value_n_2"
+ },
+ {
+  "nodeId": "TestResultSetIsNull/未_Next_即调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "未_Next_即调用"
+ },
+ {
+  "nodeId": "TestResultSetNext/批次模式结果集调用_Next",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "批次模式结果集调用_Next"
+ },
+ {
+  "nodeId": "TestResultSetNext/读到末尾返回_false_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "读到末尾返回_false_nil"
+ },
+ {
+  "nodeId": "TestResultSetNext/逐行读取顺序与行数",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/result_test.go",
+  "name": "逐行读取顺序与行数"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/Rows_初始值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "Rows_初始值"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/Rows_逐行写入后",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "Rows_逐行写入后"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/columns_DataType_VECTOR_NULL_TYPE_合并断言三种非法类型",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "columns_DataType_VECTOR_NULL_TYPE_合并断言三种非法类型"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/columns_单列合法",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "columns_单列合法"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/columns_多列合法_列名小写归一",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "columns_多列合法_列名小写归一"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/maxRows_2_30_minus_1_超界非法使用_仅记录",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "maxRows_2_30_minus_1_超界非法使用_仅记录"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/maxRows_2_30_plus_1_ErrOverflow",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "maxRows_2_30_plus_1_ErrOverflow"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/重复列名_同大小写",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "重复列名_同大小写"
+ },
+ {
+  "nodeId": "TestNewTabletColumnsForms/重复列名_大小写不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "重复列名_大小写不同"
+ },
+ {
+  "nodeId": "TestTabletAddTimestampBounds/row_maxRows-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "row_maxRows-1"
+ },
+ {
+  "nodeId": "TestTabletAddTimestampBounds/ts_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "ts_0"
+ },
+ {
+  "nodeId": "TestTabletAddTimestampBounds/ts_MaxInt64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "ts_MaxInt64"
+ },
+ {
+  "nodeId": "TestTabletAddTimestampBounds/ts_MinInt64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "ts_MinInt64"
+ },
+ {
+  "nodeId": "TestTabletAddTimestampBounds/关闭后再调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "关闭后再调用"
+ },
+ {
+  "nodeId": "TestTabletCloseExtra/重复关闭",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "重复关闭"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBool_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBool_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBool_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBool_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBool_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBytes_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBytes_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBytes_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBytes_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetBytes_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat32_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat32_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat32_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat32_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat32_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat32_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat32_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat32_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat32_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat32_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat64_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat64_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat64_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat64_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat64_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat64_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat64_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat64_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetFloat64_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetFloat64_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt32_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt32_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt32_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt32_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt32_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt64_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt64_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt64_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt64_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetInt64_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetString_column_count",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_column_count"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetString_column_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_column_neg1"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetString_column_type_mismatch",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_column_type_mismatch"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetString_row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletSettersIndexAndType/SetString_row_neg1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_row_neg1"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetBool_true_false",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBool_true_false"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetBytes_内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_内嵌_NUL"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetBytes_空字节串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetBytes_空字节串"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetInt32_MaxInt32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_MaxInt32"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetInt32_MinInt32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt32_MinInt32"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetInt64_MaxInt64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_MaxInt64"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetInt64_MinInt64",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetInt64_MinInt64"
+ },
+ {
+  "nodeId": "TestTabletValueBoundsSingle/SetString_空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_p1_test.go",
+  "name": "SetString_空串"
+ },
+ {
+  "nodeId": "TestNewTablet/columns_空数组",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "columns_空数组"
+ },
+ {
+  "nodeId": "TestNewTablet/maxRows_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "maxRows_-1"
+ },
+ {
+  "nodeId": "TestNewTablet/maxRows_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "maxRows_0"
+ },
+ {
+  "nodeId": "TestNewTablet/maxRows_1_可写_1_行",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "maxRows_1_可写_1_行"
+ },
+ {
+  "nodeId": "TestNewTablet/maxRows_2_30_ErrOverflow",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "maxRows_2_30_ErrOverflow"
+ },
+ {
+  "nodeId": "TestNewTablet/列名含_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "列名含_NUL"
+ },
+ {
+  "nodeId": "TestNewTablet/某列名为空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "某列名为空串"
+ },
+ {
+  "nodeId": "TestTabletAddTimestamp/row_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "row_-1"
+ },
+ {
+  "nodeId": "TestTabletAddTimestamp/row_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "row_0"
+ },
+ {
+  "nodeId": "TestTabletAddTimestamp/row_maxRows",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "row_maxRows"
+ },
+ {
+  "nodeId": "TestTabletValueBounds/SetString_值含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/tablet_test.go",
+  "name": "SetString_值含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestValueFidelityAllBytes/BLOB_全字节_0x00_0xFF_原样往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "BLOB_全字节_0x00_0xFF_原样往返"
+ },
+ {
+  "nodeId": "TestValueFidelityBlob/BLOB_含_NUL_与_0xFF_原样往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "BLOB_含_NUL_与_0xFF_原样往返"
+ },
+ {
+  "nodeId": "TestValueFidelityNameVsValueCase/列名归一_但值保持原样",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "列名归一_但值保持原样"
+ },
+ {
+  "nodeId": "TestValueFidelityNumeric/数值_原样往返_含负零与极值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "数值_原样往返_含负零与极值"
+ },
+ {
+  "nodeId": "TestValueFidelityString/字符串值_大小写与空格中文原样往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "字符串值_大小写与空格中文原样往返"
+ },
+ {
+  "nodeId": "TestValueFidelitySymbols/字符串值_符号全集原样往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_fidelity_p1_test.go",
+  "name": "字符串值_符号全集原样往返"
+ },
+ {
+  "nodeId": "TestFloatLimitsRoundTrip/FLOAT32_有限极值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "FLOAT32_有限极值"
+ },
+ {
+  "nodeId": "TestFloatLimitsRoundTrip/FLOAT64_有限极值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "FLOAT64_有限极值"
+ },
+ {
+  "nodeId": "TestNullMatrixArrow/Arrow_空值矩阵_TAG_部分空_FIELD_全空",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "Arrow_空值矩阵_TAG_部分空_FIELD_全空"
+ },
+ {
+  "nodeId": "TestNullMatrixTablet/FIELD_列全空值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "FIELD_列全空值"
+ },
+ {
+  "nodeId": "TestNullMatrixTablet/TAG_列全空值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "TAG_列全空值"
+ },
+ {
+  "nodeId": "TestNullMatrixTablet/TAG_列部分空值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "TAG_列部分空值"
+ },
+ {
+  "nodeId": "TestNullMatrixTablet/全部列全空值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "全部列全空值"
+ },
+ {
+  "nodeId": "TestNullMatrixTenTypes/十类字段逐类型_NULL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "十类字段逐类型_NULL"
+ },
+ {
+  "nodeId": "TestNullVsZeroScale/空值与零值区分_大批量",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "空值与零值区分_大批量"
+ },
+ {
+  "nodeId": "TestTextTypeRoundTrip/TEXT_类型读写往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "TEXT_类型读写往返"
+ },
+ {
+  "nodeId": "TestWideColumns/1000_列_记录型",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "1000_列_记录型"
+ },
+ {
+  "nodeId": "TestWideColumns/255_个_FIELD_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "255_个_FIELD_列"
+ },
+ {
+  "nodeId": "TestWideColumns/255_个_TAG_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/value_null_matrix_p1_test.go",
+  "name": "255_个_TAG_列"
+ },
+ {
+  "nodeId": "TestNewWriterOptionsAndPaths/WithMemoryThreshold_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "WithMemoryThreshold_1"
+ },
+ {
+  "nodeId": "TestNewWriterOptionsAndPaths/WithMemoryThreshold_128MiB",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "WithMemoryThreshold_128MiB"
+ },
+ {
+  "nodeId": "TestNewWriterOptionsAndPaths/同名文件已存在_截断覆盖",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "同名文件已存在_截断覆盖"
+ },
+ {
+  "nodeId": "TestNewWriterOptionsAndPaths/非法_schema_失败后再构造合法_Writer",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "非法_schema_失败后再构造合法_Writer"
+ },
+ {
+  "nodeId": "TestNewWriterPathForms/path_含中文路径",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "path_含中文路径"
+ },
+ {
+  "nodeId": "TestNewWriterPathForms/path_含空格路径",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "path_含空格路径"
+ },
+ {
+  "nodeId": "TestNewWriterPathForms/path_目录路径",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "path_目录路径"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/Category_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Category_-1"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/Category_非法_2",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Category_非法_2"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/DataType_负数_-1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "DataType_负数_-1"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/DataType_越界_99",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "DataType_越界_99"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/schema_Columns_单列_FIELD",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "schema_Columns_单列_FIELD"
+ },
+ {
+  "nodeId": "TestNewWriterSchemaForms/schema_Table_大小写混合",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "schema_Table_大小写混合"
+ },
+ {
+  "nodeId": "TestWriteAddPropertyExtra/value_含内嵌_NUL_按字节写入",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "value_含内嵌_NUL_按字节写入"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchInputs/Writer_关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Writer_关闭后调用"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchInputs/data_nil_Record",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "data_nil_Record"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchInputs/data_nil_Table",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "data_nil_Table"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchInputs/data_非_Arrow_类型_int",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "data_非_Arrow_类型_int"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchSchemaChecks/schema_含表结构外的列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "schema_含表结构外的列"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchSchemaChecks/schema_含重复列名",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "schema_含重复列名"
+ },
+ {
+  "nodeId": "TestWriteArrowBatchSchemaChecks/列类型与表结构不符",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "列类型与表结构不符"
+ },
+ {
+  "nodeId": "TestWriteArrowTableAndOwnership/arrow_Table_写入等价性",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "arrow_Table_写入等价性"
+ },
+ {
+  "nodeId": "TestWriteArrowTableAndOwnership/输入对象所有权_写入后调用方_Release",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "输入对象所有权_写入后调用方_Release"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/Tablet_列名与表结构不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Tablet_列名与表结构不同"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/Tablet_列序与表结构不同_待实测钉死",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Tablet_列序与表结构不同_待实测钉死"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/Tablet_列数少于表结构",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Tablet_列数少于表结构"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/Tablet_列类型与表结构不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Tablet_列类型与表结构不同"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/Writer_关闭后调用",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "Writer_关闭后调用"
+ },
+ {
+  "nodeId": "TestWriteTableTabletMismatch/tablet_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "tablet_nil"
+ },
+ {
+  "nodeId": "TestWriterCloseState/关闭后_AddProperty",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "关闭后_AddProperty"
+ },
+ {
+  "nodeId": "TestWriterCloseState/关闭后_WriteTableTablet",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "关闭后_WriteTableTablet"
+ },
+ {
+  "nodeId": "TestWriterCloseState/重复_Close",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "重复_Close"
+ },
+ {
+  "nodeId": "TestWriterFlush/写入后_Flush",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "写入后_Flush"
+ },
+ {
+  "nodeId": "TestWriterFlush/重复_Flush",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_p1_test.go",
+  "name": "重复_Flush"
+ },
+ {
+  "nodeId": "TestNewWriter/DataType_NULL_TYPE_7",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "DataType_NULL_TYPE_7"
+ },
+ {
+  "nodeId": "TestNewWriter/DataType_VECTOR_6",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "DataType_VECTOR_6"
+ },
+ {
+  "nodeId": "TestNewWriter/TAG_列用_INT32",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "TAG_列用_INT32"
+ },
+ {
+  "nodeId": "TestNewWriter/WithMemoryThreshold_0",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "WithMemoryThreshold_0"
+ },
+ {
+  "nodeId": "TestNewWriter/options_不传_默认阈值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "options_不传_默认阈值"
+ },
+ {
+  "nodeId": "TestNewWriter/options_含_nil",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "options_含_nil"
+ },
+ {
+  "nodeId": "TestNewWriter/path_不存在的目录",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "path_不存在的目录"
+ },
+ {
+  "nodeId": "TestNewWriter/path_含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "path_含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestNewWriter/path_正常_ASCII_路径",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "path_正常_ASCII_路径"
+ },
+ {
+  "nodeId": "TestNewWriter/path_空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "path_空字符串"
+ },
+ {
+  "nodeId": "TestNewWriter/schema_Columns_1_TAG_十类_FIELD",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "schema_Columns_1_TAG_十类_FIELD"
+ },
+ {
+  "nodeId": "TestNewWriter/schema_Columns_空数组",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "schema_Columns_空数组"
+ },
+ {
+  "nodeId": "TestNewWriter/schema_Table_合法名_大小写归一",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "schema_Table_合法名_大小写归一"
+ },
+ {
+  "nodeId": "TestNewWriter/schema_Table_含内嵌_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "schema_Table_含内嵌_NUL"
+ },
+ {
+  "nodeId": "TestNewWriter/schema_Table_空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "schema_Table_空字符串"
+ },
+ {
+  "nodeId": "TestNewWriter/列名含_NUL",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "列名含_NUL"
+ },
+ {
+  "nodeId": "TestNewWriter/构造后修改原_TableSchema_副本语义",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "构造后修改原_TableSchema_副本语义"
+ },
+ {
+  "nodeId": "TestNewWriter/某列名为空串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "某列名为空串"
+ },
+ {
+  "nodeId": "TestNewWriter/重复列名_同大小写",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "重复列名_同大小写"
+ },
+ {
+  "nodeId": "TestNewWriter/重复列名_大小写不同",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "重复列名_大小写不同"
+ },
+ {
+  "nodeId": "TestWriteAddProperty/key_含内嵌_NUL_需求只约束非空_NUL_未约束_记录实测行为",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "key_含内嵌_NUL_需求只约束非空_NUL_未约束_记录实测行为"
+ },
+ {
+  "nodeId": "TestWriteAddProperty/key_正常值",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "key_正常值"
+ },
+ {
+  "nodeId": "TestWriteAddProperty/key_空字符串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "key_空字符串"
+ },
+ {
+  "nodeId": "TestWriteAddProperty/value_正常值_SDK_无属性读取接口_以文件可正常打开验证",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "value_正常值_SDK_无属性读取接口_以文件可正常打开验证"
+ },
+ {
+  "nodeId": "TestWriteAddProperty/value_空字节串",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "value_空字节串"
+ },
+ {
+  "nodeId": "TestWriteArrowBatch/Arrow_列数_表列数_1",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "Arrow_列数_表列数_1"
+ },
+ {
+  "nodeId": "TestWriteArrowBatch/Arrow_列数_表列数_缺_time_列",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "Arrow_列数_表列数_缺_time_列"
+ },
+ {
+  "nodeId": "TestWriteArrowBatch/Record_基本往返_含_1_个_null",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "Record_基本往返_含_1_个_null"
+ },
+ {
+  "nodeId": "TestWriteArrowBatch/time_列含_null",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "time_列含_null"
+ },
+ {
+  "nodeId": "TestWriteArrowBatch/time_列类型为_string",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "time_列类型为_string"
+ },
+ {
+  "nodeId": "TestWriteTableTablet/3_行含_null_往返",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "3_行含_null_往返"
+ },
+ {
+  "nodeId": "TestWriterClose/正常_Close_数据完整可读",
+  "automationType": "ts-go",
+  "sourceFile": "tsuite/writer_test.go",
+  "name": "正常_Close_数据完整可读"
+ }
+]
