@@ -252,48 +252,6 @@
   "name": "查询列名大小写_大写传入"
  },
  {
-  "nodeId": "TestInteropBatchMode/跨语言_x_批次模式",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "跨语言_x_批次模式"
- },
- {
-  "nodeId": "TestInteropCppWriteGoRead/Cpp_写_Go_读",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "Cpp_写_Go_读"
- },
- {
-  "nodeId": "TestInteropGoWriteCppRead/Go_写_Cpp_读",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "Go_写_Cpp_读"
- },
- {
-  "nodeId": "TestInteropGoWritePythonRead/Go_写_Python_读",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "Go_写_Python_读"
- },
- {
-  "nodeId": "TestInteropMultiTableSchemas/多表文件_返回全部表结构",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "多表文件_返回全部表结构"
- },
- {
-  "nodeId": "TestInteropPythonWriteGoRead/Python_写_Go_读",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "Python_写_Go_读"
- },
- {
-  "nodeId": "TestInteropTagFilterPaging/跨语言_x_Tag_过滤与分页",
-  "automationType": "ts-go",
-  "sourceFile": "tsuite/interop_p1_test.go",
-  "name": "跨语言_x_Tag_过滤与分页"
- },
- {
   "nodeId": "TestLargeDataReadBack/万行级读回一致性",
   "automationType": "ts-go",
   "sourceFile": "tsuite/large_data_p1_test.go",
