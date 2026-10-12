@@ -298,6 +298,28 @@ func collectRowsFromResultWithTag(t *testing.T, rs *tsfile.ResultSet) []rowWithT
 	}
 }
 
+// wantSampleRows 校验读回结果与扩展样本一致（ts/value/null；TAG 列见 wantSampleRowsWithTag）。
+func wantSampleRows(t *testing.T, got []rowValue) {
+	t.Helper()
+	want := bulkSample(t)
+	if len(got) != len(want) {
+		t.Fatalf("rows = %d; want %d", len(got), len(want))
+	}
+	byTS := map[int64]rowValue{}
+	for _, g := range got {
+		byTS[g.ts] = g
+	}
+	for _, w := range want {
+		g, ok := byTS[w.ts]
+		if !ok {
+			t.Fatalf("缺少 ts=%d 的行", w.ts)
+		}
+		if g.null != w.isNull || (!w.isNull && g.value != w.value) {
+			t.Fatalf("ts=%d = %+v; want value=%v null=%v", w.ts, g, w.value, w.isNull)
+		}
+	}
+}
+
 // wantSampleRowsWithTag 校验含 TAG 列的读回结果与标准样本一致。
 // wantSampleRowsWithTag 校验含 TAG 列的读回结果与扩展样本一致（按 ts 建表，顺序无关）。
 func wantSampleRowsWithTag(t *testing.T, got []rowWithTag) {
